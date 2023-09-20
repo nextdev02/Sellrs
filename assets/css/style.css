@@ -250,7 +250,7 @@ img {
 
 .left-card .top-card,
 .left-card .bottom-card {
-    width: 100%;
+    width: 700px;
     height: 369.831px;
     border-radius: 24px;
     background: var(--card-bg);
@@ -912,7 +912,12 @@ img {
     width: 100%;
     background: var(--footer-bg);
     color: white;
-    padding: 64px 0;
+    padding-left: 121px;
+}
+
+.footer .container
+{
+    padding: 64px;
 }
 
 .footer-left
