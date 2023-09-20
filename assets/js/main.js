@@ -1,3 +1,20 @@
+// Navbar
+document.addEventListener('DOMContentLoaded', function () {
+    const toggleBar = document.querySelector('.toggle-bar');
+    const navBar = document.querySelector('.nav-bar');
+    const closeButton = document.querySelector('.close-button');
+
+    toggleBar.addEventListener('click', function () {
+        navBar.classList.add('active');
+    });
+
+    closeButton.addEventListener('click', function () {
+        navBar.classList.remove('active');
+    });
+});
+
+
+
 // FAQ
 
 const questionAnswers = document.querySelectorAll('.question-answer');

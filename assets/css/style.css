@@ -93,7 +93,6 @@ img {
 /* --------------------- Header -------------------- */
 
 .navbar {
-
     width: 100%;
     display: flex;
     align-items: center;
@@ -114,6 +113,8 @@ img {
     width: 116.173px;
     height: 45.045px;
 }
+
+
 .nav-left .logo img
 {
     width: 100%;
@@ -182,7 +183,7 @@ img {
 
 .home {
     display: flex;
-    padding: 143px 5.29px 106px 5.291px;
+    padding: 243px 5.29px 106px 5.291px;
     justify-content: center;
     align-items: center;
 }
@@ -552,8 +553,8 @@ img {
 }
 
 .macdisplay-section {
-    width: 1145.945px;
-    height: 859.459px;
+    width: 90%;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -703,7 +704,6 @@ img {
 
 .apple-box {
     position: relative;
-    width: 1082.312px;
     height: 180.971px;
 }
 
