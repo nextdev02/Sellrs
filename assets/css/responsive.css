@@ -12,7 +12,7 @@
     /*  Global CSs Start */
 
     h1 {
-        font-size: 30px !important;
+        font-size: 28px !important;
         line-height: 32px !important;
     }
 
@@ -143,7 +143,7 @@
     .hero-cards {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         align-items: center;
         gap: 24px;
     }
@@ -151,29 +151,61 @@
     .left-card .top-card,
     .left-card .bottom-card {
         width: 100%;
-        height: 250px;
+        height: 370px;
     }
+
+    .left-card .top-card {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 420px;
+    }
+
+    .top-card img{
+        width: 280px;
+        
+    }
+
 
     .top-card .hero-content {
-        padding-left: 20px;
+        padding-left: 0px;
+        padding-top: 20px;
         gap: 0px;
+        text-align: center;
     }
 
-    .main-image {
-        width: 130px;
-        right: 0;
+
+
+    .bottom-card {
+        flex-direction: column-reverse;
+        
     }
+
+    .hero-imageicon {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+    .hero-imageicon img{
+       width: 200px;
+    }
+    
 
     .bottom-card .hero-content {
-        width: 55%;
-        padding-left: 20px;
+        width: 95%;
+        padding-left: 0px;
         gap: 0px;
+        text-align: center;
+        padding-bottom: 10px;
     }
 
-    .bottom-image {
-        left: 50px;
-        width: 120px;
+    .bottom-card .hero-content h1{
+        text-align: center;
     }
+
 
     .right-card {
         height: auto;
@@ -209,23 +241,34 @@
         grid-template-columns: 1fr;
     }
 
+    .value-box {
+        width: unset;
+    }
+
     .value-box .box-items {
         height: 360px;
         overflow: hidden;
     }
 
+    .box-items .box-img {
+        padding: 30px 51px;
+        width: 300px;
+    }
+
     .box-items .box-content h4 {
-        font-size: 20px;
+        font-size: 24px;
+        text-align: center;
     }
 
     .box-items .box-content p {
-        font-size: 13px !important;
+        font-size: 14px !important;
+        text-align: center;
     }
 
 
     /* Mac Disply */
     .macdisplay-section {
-        width: 95%;
+        width: 100%;
     }
 
     /* Services */
@@ -239,19 +282,32 @@
         gap: 40px;
     }
 
+    .service-box {
+        align-items: center;
+        gap: 5px;
+    }
+
     .service-content {
-        width: 100%;
+        width: unset;
         text-align: center;
     }
 
     .service-items {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 30px;
+        text-align: center;
+    }
+
+    .service-box h3 {
+        font-size: 20px;
+        padding-top: 15px;
     }
 
     .service-items p {
-        padding-top: 2px;
+        padding-top: 0px;
+        text-align: center;
+        width: 80%;
     }
 
     /* JOin US */
@@ -261,8 +317,8 @@
     }
 
     .joinus-section {
-        height: 400px;
-        padding: 40px 20px;
+        height: 340px;
+        padding: 20px 10px;
     }
 
 
@@ -294,14 +350,14 @@
 
     .faq-section {
         flex-direction: column;
-        padding: 64px 0;
+        padding: 40px 0;
         height: auto;
     }
 
     .faq-title {
         display: flex;
         flex-direction: column;
-        width: 80%;
+        width: 90%;
         align-items: center;
         justify-content: center;
         margin: 0 auto;
@@ -317,24 +373,39 @@
 
     .accordion {
         position: relative;
-        width: 95%;
+        width: 100%;
         margin: 0 auto;
+    }
+
+    .content-accordion {
+        padding: 10px 2px;
     }
 
     .title-question {
         width: 100%;
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    .question {
+        padding: 6px;
     }
 
     /* Footer */
 
     .footer {
         margin-top: 20px;
-        padding-left: 0px;
+        padding-left: 5px;
     }
 
     .footer .container {
         padding: 35px 12px;
+    }
+
+    .row
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
 
     .footer .short-links a {
